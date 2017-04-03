@@ -22,6 +22,7 @@
     <link href="css/creative.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
+
     <style>
     .navbar-toggler {
         z-index: 1;
@@ -52,10 +53,10 @@
                         <a class="nav-link page-scroll" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                        <a class="nav-link page-scroll" href="res/Fanzhe%20Resume.pdf">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -65,9 +66,10 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Fanzhe Lyu</h1>
+                <h1 id="hi1">Hi! This is Fanzhe Lyu!</h1>
                 <hr>
-                <p>Computer Engineer @ Georgia Institute of Technology</p>
+                <i class="fa fa-code fa-4x" style="opacity: 0.4"></i>
+                <p id="hi2">Computer Engineer @ Georgia Institute of Technology</p>
             </div>
         </div>
     </header>
@@ -78,15 +80,24 @@
                 <h2>About Me</h2>
             </div>
             <hr>
-            <div class="row">
-                <div class="col-sm-3 text-center">
-                    <img src="img/me.jpg" height="400" width="400" style="border-radius: 50px">
-                </div>
-                <div class="col-sm-9 text-center">
-
+            <div class="col-lg-12 text-center" align="center" >
+                <div class="row">
+                    <div class="col-lg-4" style="background-color: white; border-radius: 50px">
+                        <img src="img/me.jpg" class="sr-pic"  height="auto" width="100%" style="border-radius: 50px">
+                        <div class="text-center" >
+                            <i class="fa fa-battery-full fa-4x sr-pic"id="bat"></i>
+                            <hr style="color: #FFF9C4">
+                            <p>Major in Computer Engineering</p>
+                            <p>Minor in Computing & Intelligence</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 ">
+                        <img src="img/profile.png" class="sr-pic" height="auto" width="100%" style="border-radius: 20px">
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
 
     <section id="services">
@@ -141,26 +152,31 @@
             <p>Feel Free to Contact Me! Use The Methods Below!</p>
             <hr>
         </div>
-        <div class="col-lg-8 offset-lg-2 text-center">
+        <div class="col-lg-10 text-center" align="center">
             <div class="row">
                 <div class="col-md-2 offset-lg-2 text-center">
                     <a  href="https://github.com/fanzhe98">
-                        <i class="fa fa-github-square fa-3x"></i>
+                        <i class="fa fa-github fa-3x sr-contact"></i>
                     </a>
                 </div>
                 <div class="col-md-2 text-center">
                     <a href="mailto:lvfanzhe@hotmail.com">
-                        <i class="fa fa-envelope-square fa-3x" ></i>
+                        <i class="fa fa-envelope fa-3x sr-contact" ></i>
                     </a>
                 </div>
                 <div class="col-md-2 text-center">
                     <a href="https://www.linkedin.com/in/fanzhelyu/">
-                        <i class="fa fa-linkedin-square fa-3x" ></i>
+                        <i class="fa fa-linkedin fa-3x sr-contact" ></i>
                     </a>
                 </div>
                 <div class="col-md-2 text-center">
                     <a href="https://www.facebook.com/profile.php?id=100006491412357">
-                        <i class="fa fa-facebook-square fa-3x"></i>
+                        <i class="fa fa-facebook fa-3x sr-contact"></i>
+                    </a>
+                </div>
+                <div class="col-md-2 text-center" style="color: #BA68C8">
+                    <a id = "test" tabindex="0" role="button" data-toggle="popover" title="Scan To Add My Wechat">
+                        <i class="fa fa-wechat fa-3x sr-contact"></i>
                     </a>
                 </div>
             </div>
@@ -170,12 +186,14 @@
 
 
     <script src="lib/jquery/jquery.js"></script>
+
     <script src="lib/tether/tether.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="lib/http_cdnjs.cloudflare.com_ajax_libs_jquery-easing_1.3_jquery.easing.js"></script>
     <script src="lib/scrollreveal/scrollreveal.min.js"></script>
     <script src="lib/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/creative.min.js"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 
 </body>
 
