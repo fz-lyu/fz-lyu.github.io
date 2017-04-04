@@ -16,7 +16,7 @@ html, body {
 }
 
 .icon-offline {
-  content: -webkit-image-set( url(assets/default100percent/100erroroffline.png) 1x, url(assets/default200percent/200-error-offline.png) 2x);
+  content: -webkit-image-set( url(assets/default100percent/100erroroffline.png) 1x, url(assets/default200percent/200erroroffline.png) 2x);
   position: relative;
 }
 
