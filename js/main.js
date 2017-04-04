@@ -3,8 +3,8 @@
  */
 (function ($) {
     $(document).ready(function(){
-        $("#hi1").hide().fadeIn(1500);
-        $("#hi2").hide().fadeIn(2500);
+        $("#hi1").hide().fadeIn(2000);
+        $("#hi2").hide().fadeIn(3000);
     });
 
     sr.reveal('.sr-pic', {
@@ -17,4 +17,5 @@
         content: image,
         html:true
     });
+
 })(jQuery);
