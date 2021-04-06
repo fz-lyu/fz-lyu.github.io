@@ -327,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
 
 
 .cpp {
-    width: 60%;
+    width: 70%;
     -moz-animation: cpp 2s ease;
     -webkit-animation: cpp 2s ease;
 }
